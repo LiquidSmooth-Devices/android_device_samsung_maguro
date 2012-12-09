@@ -27,6 +27,10 @@ $(call inherit-product, vendor/liquid/config/common_gsm.mk)
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
+#boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dexopt-data-only=1
+
 # products
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Google
