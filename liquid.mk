@@ -27,10 +27,6 @@ $(call inherit-product, vendor/liquid/config/common_gsm.mk)
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
-#boot
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.dexopt-data-only=1
-
 # products
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Google
@@ -44,10 +40,9 @@ PRODUCT_LOCALES := cs_CZ da_DK de_AT de_CH de_DE de_LI el_GR en_AU en_CA en_GB e
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=485486 \
+    BUILD_NUMBER=533553 \
     PRODUCT_NAME=yakju \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="yakju-user 4.1.2 JZO54K 485486 release-keys" \
-    BUILD_FINGERPRINT="google/yakju/maguro:4.1.2/JZO54K/485486:user/release-keys"
-
+    PRIVATE_BUILD_DESC="yakju-user 4.2.1 JOP40D 533553 release-keys" \
+    BUILD_FINGERPRINT="google/yakju/maguro:4.2.1/JOP40D/533553:user/release-keys"
