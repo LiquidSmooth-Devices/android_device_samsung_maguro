@@ -1,4 +1,6 @@
-# Copyright (C) 2011 The Android Open Source Project
+#
+# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2012 The LiquidSmooth Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,8 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Default values, possibly overridden by BoardConfigVendor.mk
+#
 TARGET_BOARD_INFO_FILE := device/samsung/maguro/board-info.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/maguro/bluetooth
 
@@ -21,4 +22,3 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/maguro/bluetooth
 
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk
-
