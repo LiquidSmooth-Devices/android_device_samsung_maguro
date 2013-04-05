@@ -40,9 +40,9 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.maguro.$(shell date +%m%d%y).
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=533553 \
+    BUILD_NUMBER=573038 \
     PRODUCT_NAME=yakju \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="yakju-user 4.2.1 JOP40D 533553 release-keys" \
-    BUILD_FINGERPRINT="google/yakju/maguro:4.2.1/JOP40D/533553:user/release-keys"
+    PRIVATE_BUILD_DESC="yakju-user 4.2.2 JDQ39 573038 release-keys" \
+    BUILD_FINGERPRINT="google/yakju/maguro:4.2.2/JDQ39/573038:user/release-keys"

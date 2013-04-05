@@ -4,26 +4,9 @@ windowsmgr.max_events_per_sec=275
 #
 ## cannot take spaces
 rild.libargs=-d /dev/ttys0
-
-# Fields For Custom RIL
 rild.libpath=/vendor/lib/libsec-ril.so
 telephony.lteOnCdmaDevice=0
 ro.config.svlte1x=true
 
 # RIL Sends Only One RIL_UNSOL_CALL_RING
 ro.telephony.call_ring.multiple=0
-
-# hardware info
-ro.device.cpu=1.2GHz dual-core TI OMAP 4460
-ro.device.gpu=PowerVR SGX SGX540
-ro.device.rear_cam=5 MP
-ro.device.front_cam=1.3 MP
-ro.device.screen_res=720x1280
-
-# Fields For VM Heapsize
-dalvik.vm.heapsize=256m
-dalvik.vm.heapmaxfree=8m
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapstartsize=16m
-dalvik.vm.heapgrowthlimit=128m
-dalvik.vm.heaputilization=0.75
