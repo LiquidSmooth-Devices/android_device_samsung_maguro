@@ -29,10 +29,10 @@ $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # products
 PRODUCT_DEVICE := maguro
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_NAME := liquid_maguro
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.maguro.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # overrides
