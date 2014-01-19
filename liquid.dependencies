@@ -1,13 +1,13 @@
 [
  {
    "remote": "gh",
-   "repository": "android_kernel_samsung_tuna",
+   "repository": "CyanogenMod/android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna",
    "branch": "cm-11.0"
  },
  {
    "remote": "gh",
-   "repository": "android_device_samsung_tuna",
+   "repository": "LiquidSmooth/android_device_samsung_tuna",
    "target_path": "device/samsung/tuna",
    "branch": "kitkat"
  }
