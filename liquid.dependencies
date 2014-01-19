@@ -1,12 +1,14 @@
 [
  {
+   "remote": "gh",
    "repository": "android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna",
-   "branch": "cm-10.1"
+   "branch": "cm-11.0"
  },
  {
+   "remote": "gh",
    "repository": "android_device_samsung_tuna",
    "target_path": "device/samsung/tuna",
-   "branch": "jb2"
+   "branch": "kitkat"
  }
 ]
