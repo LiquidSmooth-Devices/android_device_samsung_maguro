@@ -21,9 +21,6 @@ PRODUCT_RELEASE_NAME := GN-GSM
 # device
 $(call inherit-product-if-exists, device/samsung/maguro/full_maguro.mk)
 
-# gsm
-$(call inherit-product, vendor/liquid/config/common_gsm.mk)
-
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
