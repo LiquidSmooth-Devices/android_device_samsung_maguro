@@ -6,7 +6,7 @@
    "revision": "cm-11.0"
  },
  {
-   "remote": "ls",
+   "remote": "lsd",
    "repository": "android_device_samsung_tuna",
    "target_path": "device/samsung/tuna",
    "revision": "kitkat"
@@ -16,5 +16,11 @@
    "repository": "proprietary_vendor_samsung",
    "target_path": "vendor/samsung",
    "revision": "cm-11.0"
+  },
+  {
+   "remote": "ls",
+   "repository": "android_hardware_ti_omap4xxx",
+   "target_path": "hardware/ti/omap4xxx",
+   "revision": "kitkat"
   }
 ]
