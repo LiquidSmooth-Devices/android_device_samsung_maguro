@@ -4,6 +4,7 @@
 
 windowsmgr.max_events_per_sec=275
 
+rild.libpath=/vendor/lib/libsec-ril.so
 rild.libargs=-d /dev/ttys0
 rild.libpath=/vendor/lib/libsec-ril.so
 telephony.lteOnCdmaDevice=0
@@ -11,9 +12,6 @@ ro.config.svlte1x=true
 
 # RIL Sends Only One RIL_UNSOL_CALL_RING
 ro.telephony.call_ring.multiple=0
-
-# GPU producer to CPU consumer not supported
-ro.bq.gpu_to_cpu_unsupported=1
 
 # Disable GC freed lines
 dalvik.vm.debug.alloc=0
